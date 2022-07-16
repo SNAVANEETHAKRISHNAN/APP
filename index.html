@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<title>BEE WORLD</title>
+
+</head>
+<body>
+    <!--outer container  -->
+    <div>
+        <!-- navbar -->
+
+<div>
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid navdes">
+        <a class="navbar-brand navbar" >BEE WORLD</a>
+      </div>
+    </nav>
+</div>
+
+<!--  -->
+<!-- search container -->
+<div>
+
+    <div class=" border container mt-5 w-40 boxx">
+        <!-- inputbox -->
+        <div class="input-group mb-3 mt-2">
+            <span class="input-group-text" id="basic-addon1">Enter Brewer</span>
+            <input id='by_name'type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1" required>
+          </div>
+          <!-- submit button -->
+          <div class="d-grid gap-2 col-5 mx-auto mb-2">
+            <button class="btn btn-primary" type="button" onclick="getbnamedata()">Search</button>
+          </div>
+      </div>
+    
+      <div id="bContainer" class="container card mb-3 mt-5 p-0" style="max-width: 540px;">
+       
+      </div>
+</div>
+
+<!-- flex container -->
+<div class=" flexbox d-flex flex-row mb-3">
+    <div class="p-2">
+        
+        <div class="card" style="width: 18rem;">
+        <img src="./3cross.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text" >3cross Fermentation Cooperative</p>
+        </div>
+      </div></div>
+
+
+
+    <div class="p-2">
+        
+        <div class="card" style="width: 20rem;">
+        <img src="./4th.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">4th Tap Brewing Cooperative</p>
+        </div>
+      </div></div>
+
+
+    <div class="p-2">
+
+        <div class="card" style="width: 20rem;">
+            <img src="./broken.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Broken Clock Brewing Cooperative</p>
+            </div>
+          </div>
+          
+    </div>
+  </div>
+  
+
+  
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+<script src="script.js"></script></body>
+</html>
